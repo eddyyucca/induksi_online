@@ -9,4 +9,10 @@ class Admin extends CI_Controller {
 		$this->load->view('admin/home');
 		$this->load->view('admin/template/footer');
 	}
+	public function register()
+	{
+		$this->load->view('admin/template/header');
+		$this->load->view('admin/register/home');
+		$this->load->view('admin/template/footer');
+	}
 }
