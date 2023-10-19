@@ -32,7 +32,8 @@
 	<link href="<?= base_url("vendor") ?>/vendor/tagify/dist/tagify.css" rel="stylesheet">
 	<!-- Style css -->
 	<link href="<?= base_url("vendor") ?>/css/style.css" rel="stylesheet">
-
+ <!-- Daterange picker -->
+    <link href="<?= base_url("vendor") ?>/vendor/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
 </head>
 
 <body data-typography="poppins" data-theme-version="light" data-layout="vertical" data-nav-headerbg="black"
